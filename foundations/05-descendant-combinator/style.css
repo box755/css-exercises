@@ -1,0 +1,7 @@
+.container .text{
+    background-color: yellow;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+/* .container .text 和 .container.text不一樣，前者是指，選擇有container class 元素裡的 有 text class的元素。後者是選擇 class中同時有container和text的元素
