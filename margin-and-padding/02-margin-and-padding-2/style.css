@@ -2,15 +2,21 @@ body {
   background: #eee;
   font-family: sans-serif;
 }
+body *{
+  margin-bottom: 8px;/*這裡用margin: 8 會發現 上面的margin會和父元素的margin重疊，所以看不到效果。*/
+}
+
 
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
 }
 
 .content {
@@ -19,9 +25,20 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  display: block;
+  padding: 8px;
+  text-align: center;
 }
+.button-container *{
+  margin: 0 auto;
+}
+
+
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  padding: 8px 24px;
+
 }
